@@ -9,26 +9,26 @@ body {
 }
 
 .header {
-  text-align: center;
   padding: 32px;
+  text-align: center;
   background: #E0DDDD;
 }
 
 #gallery {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   padding: 0 4px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 #gallery img {
   width: 25%;
   height: 300px;
-  object-fit: cover;
-  margin-top: 8px;
   padding: 0 4px;
+  margin-top: 8px;
+  object-fit: cover;
   border-radius: 10px;
 }
 
